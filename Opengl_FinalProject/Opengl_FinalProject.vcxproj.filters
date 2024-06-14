@@ -19,11 +19,8 @@
     <Filter Include="Resource Files\Textures">
       <UniqueIdentifier>{8b67aa0b-e156-4c18-a675-a49ce308da3a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files\Models">
-      <UniqueIdentifier>{80e8dca6-3c4a-479d-8fbd-4f8aaa7f0474}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Resource Files\Images">
-      <UniqueIdentifier>{20a3dda5-9cf1-455b-9bd1-1889d5e387f0}</UniqueIdentifier>
+    <Filter Include="Resource Files\Music">
+      <UniqueIdentifier>{7244d6c2-f50d-4cdd-9af8-1b8747e2b8e1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -38,9 +35,6 @@
     </None>
     <None Include="Shaders\shader_glsl.vert">
       <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="Models\dragonfbx111.fbx">
-      <Filter>Resource Files\Models</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -92,12 +86,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Material.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="load_model_meshes.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="shader_configure.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

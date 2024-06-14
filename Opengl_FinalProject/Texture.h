@@ -1,15 +1,15 @@
 #pragma once
 
 #include <GL\glew.h>
-
-#include "stb_image.h"
 #include <string>
+#include <string.h>
+#include "stb_image.h"
 
 class Texture
 {
 public:
 	Texture();
-	Texture(std::string fileLoc);
+	Texture(const char* fileLoc);
 
 	void LoadTexture();
 	void UseTexture();
@@ -21,6 +21,6 @@ private:
 	GLuint textureID;
 	int width, height, bitDepth;
 
-	std::string fileLocation;
+	const char* fileLocation;
 };
 

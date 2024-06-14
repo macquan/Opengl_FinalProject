@@ -24,6 +24,10 @@ public:
 	GLuint GetDiffuseIntensityLocation();
 	GLuint GetLightDirectionLocation();
 	GLuint GetAmbientColourLocation();
+	GLuint GetLightPositionLocation();
+	GLuint GetLightConstantLocation();
+	GLuint GetLightLinearLocation();
+	GLuint GetLightQuadraticLocation();
 	GLuint GetSpecularIntensityLocation();
 	GLuint GetCameraLocalPos();
 

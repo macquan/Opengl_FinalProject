@@ -22,7 +22,7 @@ public:
 	bool* getsKeys() { return keys; }
 	GLfloat getXChange();
 	GLfloat getYChange();
-
+	GLFWwindow* getWindows() { return mainWindow; };
 	void swapBuffers() { glfwSwapBuffers(mainWindow); }
 
 	~Window();
